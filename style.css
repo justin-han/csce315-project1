@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.socials {
+  width: 80%;
+}
 body {
-  background-color: #243665;
+  background-color: #7689de;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -13,35 +22,70 @@ h6 {
   font-weight: 500;
 }
 
-header {
-  color: white;
-  font-size: 1.5rem;
-  padding: 2rem;
+a {
+  color: #7689de;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.wrapper .sidenav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40vh;
+  height: 100vh;
+  background: #a9dce3;
+}
+
+.wrapper .sidenav h1 {
+  padding: 20px;
+  color: #7689de;
   text-align: center;
+  line-height: 90px;
+  font-size: 40px;
 }
 
-.sections {
-  width: 50%;
-  display: flex;
-  margin: auto;
-  padding: 10px;
-  justify-content: space-between;
-}
-
-.sections button {
-  font-family: "Roboto Mono", monospace;
-  color: #8bd8bd;
-  border: none;
-  background-color: #243665;
-  cursor: pointer;
-  padding: 1rem;
-  font-size: 1rem;
-  flex-grow: 1;
+.wrapper .sidenav ul li {
+  list-style: none;
+  padding: 25px;
+  color: #7689de;
+  font-size: 1.3rem;
+  text-align: center;
   transition: all 1s ease;
+  cursor: pointer;
 }
 
-.sections button:hover {
-  background-color: #8bd8bd;
-  color: #243665;
+.wrapper .sidenav ul li:hover {
+  background-color: #7689de;
+  color: #a9dce3;
   font-weight: bold;
+}
+
+.wrapper .sidenav .socials {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper .sidenav .socials a {
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.wrapper .content {
+  width: 165vh;
+  margin-left: 40vh;
+  color: #a9dce3;
+}
+
+i {
+  font-size: 50px;
+}
+section {
+  height: 87vh;
+  padding: 50px;
 }
