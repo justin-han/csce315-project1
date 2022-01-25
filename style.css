@@ -1,3 +1,47 @@
 body {
-  background-color: red;
+  background-color: #243665;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sections {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.sections button {
+  font-family: "Roboto Mono", monospace;
+  color: #8bd8bd;
+  border: none;
+  background-color: #243665;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+  flex-grow: 1;
+  transition: all 1s ease;
+}
+
+.sections button:hover {
+  background-color: #8bd8bd;
+  color: #243665;
+  font-weight: bold;
 }
