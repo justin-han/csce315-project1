@@ -1,14 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 .socials {
   width: 80%;
 }
 body {
-  background-color: #7689de;
+  background-color: #e23c52;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -23,23 +22,26 @@ h6 {
 }
 
 a {
-  color: #7689de;
+  color: #e23c52;
   font-size: 1.3rem;
   text-decoration: none;
 }
-
+.wrapper {
+  display: flex;
+  position: relative;
+}
 .wrapper .sidenav {
   position: fixed;
   left: 0;
   top: 0;
   width: 40vh;
   height: 100vh;
-  background: #a9dce3;
+  background: #bdfff6;
 }
 
 .wrapper .sidenav h1 {
   padding: 20px;
-  color: #7689de;
+  color: #e23c52;
   text-align: center;
   line-height: 90px;
   font-size: 40px;
@@ -48,7 +50,7 @@ a {
 .wrapper .sidenav ul li {
   list-style: none;
   padding: 25px;
-  color: #7689de;
+  color: #e23c52;
   font-size: 1.3rem;
   text-align: center;
   transition: all 1s ease;
@@ -56,8 +58,8 @@ a {
 }
 
 .wrapper .sidenav ul li:hover {
-  background-color: #7689de;
-  color: #a9dce3;
+  background-color: #e23c52;
+  color: #bdfff6;
   font-weight: bold;
 }
 
@@ -79,13 +81,13 @@ a {
 .wrapper .content {
   width: 165vh;
   margin-left: 40vh;
-  color: #a9dce3;
+  color: #bdfff6;
 }
 
 i {
   font-size: 50px;
 }
 section {
-  height: 87vh;
-  padding: 50px;
+  height: 100vh;
+  padding: 30px;
 }
