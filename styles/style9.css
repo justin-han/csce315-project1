@@ -7,7 +7,7 @@
   width: 80%;
 }
 body {
-  background-color: #7689de;
+  background-color: #a2eacb;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -22,7 +22,7 @@ h6 {
 }
 
 a {
-  color: #7689de;
+  color: #a2eacb;
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -36,12 +36,12 @@ a {
   top: 0;
   width: 40vh;
   height: 100vh;
-  background: #a9dce3;
+  background: #551fbd;
 }
 
 .wrapper .sidenav h1 {
   padding: 20px;
-  color: #7689de;
+  color: #a2eacb;
   text-align: center;
   line-height: 90px;
   font-size: 40px;
@@ -50,7 +50,7 @@ a {
 .wrapper .sidenav ul li {
   list-style: none;
   padding: 25px;
-  color: #7689de;
+  color: #a2eacb;
   font-size: 1.3rem;
   text-align: center;
   transition: all 1s ease;
@@ -58,8 +58,8 @@ a {
 }
 
 .wrapper .sidenav ul li:hover {
-  background-color: #7689de;
-  color: #a9dce3;
+  background-color: #a2eacb;
+  color: #551fbd;
   font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ a {
 .wrapper .content {
   width: 165vh;
   margin-left: 40vh;
-  color: #a9dce3;
+  color: #551fbd;
 }
 
 i {
@@ -101,7 +101,7 @@ section {
 button {
   background: transparent;
   border: none;
-  color: #7689de;
+  color: #a2eacb;
   cursor: pointer;
   font-size: 100px;
   transition: all 0.2s ease-in-out;

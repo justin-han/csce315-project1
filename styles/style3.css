@@ -91,3 +91,22 @@ section {
   height: 100vh;
   padding: 30px;
 }
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #514644;
+  cursor: pointer;
+  font-size: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
